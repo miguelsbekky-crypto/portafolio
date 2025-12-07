@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Design Thinking - Ana María Sierra Yáñez | Grupo 25</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Portafolio Completo Design Thinking</h1>
+        <p>Ana María Sierra Yáñez – Ingeniería de Sistemas – UNAD – Grupo 25</p>
+        <p>Proyecto: Aplicación Móvil para Fábrica de Talentos | Diciembre 2025</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#empatia">Fase 1: Empatía</a></li>
+            <li><a href="#definicion">Fase 2: Definición e Ideación</a></li>
+            <li><a href="#prototipado">Fase 4: Prototipado</a></li>
+            <li><a href="#testeo">Fase 5: Testeo y Selección</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio" class="card">
+        <h2>Presentación del Proyecto</h2>
+        <p>Este portafolio documenta el proceso completo de <strong>Design Thinking</strong> aplicado al diseño de una aplicación móvil para <strong>Fábrica de Talentos</strong>, una plataforma que ayuda a personas en búsqueda de empleo a descubrir, filtrar y comparar cursos de upskilling y reskilling de forma rápida, visual y efectiva.</p>
+        <p>Desarrollado de forma individual por <strong>Ana María Sierra Yáñez</strong>, estudiante de Ingeniería de Sistemas en la Universidad Nacional Abierta y a Distancia (UNAD), Grupo 25.</p>
+    </section>
+
+    <!-- ==================== FASE 1: EMPATÍA ==================== -->
+    <section id="empatia">
+        <h2>Fase 1: Empatía – Comprensión del Usuario y Mercado</h2>
+        <div class="card">
+            <h3>Introducción</h3>
+            <p>La fase de empatía busca comprender profundamente al usuario, sus necesidades, motivaciones y puntos de dolor. Se analizaron competidores, tendencias y referentes para identificar oportunidades en el diseño de una aplicación innovadora de búsqueda de empleo y upskilling para Fábrica de Talentos.</p>
+
+            <h3>Análisis Competitivo Comparativo</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plataforma</th>
+                        <th>Facilidad de uso / UX</th>
+                        <th>Funcionalidades</th>
+                        <th>Modelo de negocio</th>
+                        <th>Público objetivo</th>
+                        <th>Fortalezas</th>
+                        <th>Debilidades</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Plataforma">Bumeran</td>
+                        <td data-label="Facilidad">Interfaz clara con filtros por experiencia, estudios y localidad</td>
+                        <td data-label="Funcionalidades">Publicación de avisos sencilla, administración de CV y postulaciones</td>
+                        <td data-label="Modelo">Aviso Talento (gratuito 30 días), créditos para datos de contacto</td>
+                        <td data-label="Público">Personas que buscan empleo en Latam y empresas</td>
+                        <td data-label="Fortalezas">Amplio volumen de CV (+4M), presencia regional</td>
+                        <td data-label="Debilidades">Limitaciones en servicios gratuitos, saturación</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Plataforma">ZonaJobs</td>
+                        <td data-label="Facilidad">Sitio renovado con motor de búsqueda avanzado</td>
+                        <td data-label="Funcionalidades">Categorías de empleo, herramientas de RRHH</td>
+                        <td data-label="Modelo">Publicación de vacantes, perfiles de postulantes</td>
+                        <td data-label="Público">Argentina y región</td>
+                        <td data-label="Fortalezas">Alto tráfico, marca reconocida</td>
+                        <td data-label="Debilidades">Menor presencia internacional</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Plataforma">LinkedIn Jobs</td>
+                        <td data-label="Facilidad">Interfaz profesional e integrada</td>
+                        <td data-label="Funcionalidades">Red de networking, recomendaciones IA, Recruiter</td>
+                        <td data-label="Modelo">Freemium + planes premium</td>
+                        <td data-label="Público">Profesionales globales</td>
+                        <td data-label="Fortalezas">950M usuarios, confianza corporativa</td>
+                        <td data-label="Debilidades">Costos elevados en premium</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Plataforma">Indeed</td>
+                        <td data-label="Facilidad">Buscador sencillo con filtros</td>
+                        <td data-label="Funcionalidades">Alertas personalizadas, evaluaciones</td>
+                        <td data-label="Modelo">Patrocinio de ofertas</td>
+                        <td data-label="Público">Búsqueda activa global</td>
+                        <td data-label="Fortalezas">Presencia global, volumen</td>
+                        <td data-label="Debilidades">Duplicación de avisos</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Plataforma">Glassdoor</td>
+                        <td data-label="Facilidad">Interfaz amigable</td>
+                        <td data-label="Funcionalidades">Reseñas, salarios, branding</td>
+                        <td data-label="Modelo">Gratuito candidatos, pago empleadores</td>
+                        <td data-label="Público">Interesados en cultura empresarial</td>
+                        <td data-label="Fortalezas">Transparencia, confianza</td>
+                        <td data-label="Debilidades">Alcance menor, depende de reseñas</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>10 Tendencias del Mercado Laboral 2025</h3>
+            <ol>
+                <li><strong>Inteligencia Artificial en selección</strong> – Machine learning para filtrar CVs y reducir sesgos (WEF)</li>
+                <li><strong>Trabajo híbrido y flexible</strong> – Modelo estándar para equilibrio vida-trabajo (Adecco)</li>
+                <li><strong>Crecimiento de soft skills</strong> – Liderazgo y adaptabilidad más valoradas que habilidades técnicas</li>
+                <li><strong>Inclusión y diversidad</strong> – Políticas obligatorias por regulación y conciencia social</li>
+                <li><strong>Trabajador aumentado con IA</strong> – Sistemas inteligentes apoyan decisiones humanas</li>
+                <li><strong>Transformación digital en LatAm</strong> – Demanda de competencias en datos y ciberseguridad</li>
+                <li><strong>Automatización de procesos</strong> – Mejora productividad en manufactura y finanzas</li>
+                <li><strong>Bienestar y salud mental</strong> – Prioridad en estrategias de RRHH</li>
+                <li><strong>Analítica de datos en talento</strong> – Predicción de renuncias y retención</li>
+                <li><strong>Reskilling y upskilling continuo</strong> – Aprendizaje permanente como necesidad urgente</li>
+            </ol>
+
+            <h3>10 Referentes Inspiradores</h3>
+            <ul>
+                <li><strong>Deel</strong> → Contratación global y nómina en 150 países → Lección: soporte internacional</li>
+                <li><strong>Toptal</strong> → Talento curado (top 3%) → Lección: verificación y badges de confianza</li>
+                <li><strong>Hired</strong> → Ofertas inversas → Lección: matching proactivo</li>
+                <li><strong>Handshake</strong> → Universitarios → Lección: rutas para recién egresados</li>
+                <li><strong>HireVue</strong> → Entrevistas por video con IA → Lección: evaluaciones digitales</li>
+                <li><strong>Fiverr</strong> → Microservicios → Lección: proyectos cortos con portafolio</li>
+                <li><strong>Stack Overflow</strong> → Reputación comunitaria → Lección: gamificación de habilidades</li>
+                <li><strong>Kaggle</strong> → Retos prácticos → Lección: portafolio verificable</li>
+                <li><strong>Behance</strong> → Portafolios creativos → Lección: presentación visual</li>
+                <li><strong>Notion</strong> → Onboarding guiado → Lección: flujo progresivo para usuarios</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ==================== FASE 2: DEFINICIÓN E IDEACIÓN ==================== -->
+    <section id="definicion">
+        <h2>Fase 2: Definición e Ideación</h2>
+        <div class="card">
+            <h3>5 Arquetipos de Usuario (Personas)</h3>
+            <p>Basados en datos reales de DANE, Portafolio.co, Infobae y tendencias laborales Colombia 2024–2025.</p>
+            <ol>
+                <li><strong>Ana, 22 años</strong> – Egresada técnica, busca primer empleo. Pain: sin experiencia. Gain: vacantes junior + cursos gratis.</li>
+                <li><strong>Carlos, 35 años</strong> – Profesional en transición (ingeniero → TI). Pain: obsolescencia. Gain: formación corta + alertas híbridas.</li>
+                <li><strong>María, 52 años</strong> – Administradora en reinserción. Pain: discriminación etaria. Gain: destacar experiencia + programas 50+.</li>
+                <li><strong>Andrés, 30 años</strong> – Freelance gráfico. Pain: ingresos variables. Gain: proyectos estables + pagos seguros.</li>
+                <li><strong>Sofía, 29 años</strong> – Ingeniera que busca ascender. Pain: estancamiento. Gain: roles de liderazgo + mentorías.</li>
+            </ol>
+
+            <div class="btn-container">
+                <a href="https://miguelsbekky-crypto.github.io/Diseno-centrado-en-el-usuario/" target="_blank" class="btn btn-sketches">
+                    🖌️ Ver los 3 Sketches de Ideación (Sketch 1, 2 y 3)
+                </a>
+            </div>
+
+            <p><a href="https://youtu.be/YvOvNhEJV20" target="_blank" class="btn">📹 Ver video explicativo de las Personas</a></p>
+        </div>
+    </section>
+
+    <!-- ==================== FASE 4: PROTOTIPADO ==================== -->
+    <section id="prototipado">
+        <h2>Fase 4: Prototipado</h2>
+        <div class="card">
+            <h3>Prototipo 1 – Lista mínima + drawer de filtros</h3>
+            <p>Diseño simple y rápido, ideal para usuarios que buscan velocidad y poca sobrecarga cognitiva.</p>
+            <iframe class="prototype-frame" src="https://miguelsbekky-crypto.github.io/prototipo-1/" title="Prototipo 1"></iframe>
+
+            <h3>Prototipo 2 (Ganador) – Tarjetas en cuadrícula + comparación + guardados</h3>
+            <p>Diseño visual, interactivo y exploratorio. Permite comparar cursos, guardarlos y descubrir nuevas opciones.</p>
+            <iframe class="prototype-frame" src="https://miguelsbekky-crypto.github.io/prototipo-2/" title="Prototipo 2"></iframe>
+        </div>
+    </section>
+
+    <!-- ==================== FASE 5: TESTEO ==================== -->
+    <section id="testeo">
+        <h2>Fase 5: Testeo y Selección Final</h2>
+        <div class="card">
+            <h3>Tabla de Resultados del Test de Preferencia (10 usuarios)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Usuario</th>
+                        <th>Edad/Sexo</th>
+                        <th>Orden</th>
+                        <th>Elegido</th>
+                        <th>Razones a favor</th>
+                        <th>Razones en contra del otro</th>
+                        <th>Mejoraría</th>
+                        <th>Gustar (1-5)</th>
+                        <th>Facilidad (1-5)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Ana López</td><td>28, F</td><td>A/B</td><td>A</td><td>Directo, minimalista, reduce ansiedad</td><td>B confunde con muchos filtros</td><td>Filtro "gratuitos" por default</td><td>4</td><td>5</td></tr>
+                    <tr><td>Carlos Rivera</td><td>35, M</td><td>B/A</td><td>B</td><td>Comparación clave para decidir inversión</td><td>A demasiado básico</td><td>Recomendaciones IA</td><td>5</td><td>4</td></tr>
+                    <tr><td>Jamie Torres</td><td>22, NB</td><td>A/B</td><td>B</td><td>Filtros por idioma y precio inclusivos</td><td>A no permite personalizar</td><td>Modo oscuro y lectores de pantalla</td><td>4</td><td>4</td></tr>
+                    <tr><td>María González</td><td>45, F</td><td>B/A</td><td>A</td><td>Simple, ideal para reconversión</td><td>B abrumador para mayores</td><td>Enlaces directos a plataformas</td><td>3</td><td>5</td></tr>
+                    <tr><td>Pedro Sánchez</td><td>19, M</td><td>A/B</td><td>B</td><td>Guardados motivan explorar</td><td>A aburrido</td><td>Gamificación con badges</td><td>5</td><td>3</td></tr>
+                    <tr><td>Sofia Ramirez</td><td>31, F</td><td>B/A</td><td>B</td><td>Compare bar innovador</td><td>A pierde selecciones</td><td>Compartir cursos en redes</td><td>4</td><td>4</td></tr>
+                    <tr><td>Luis Herrera</td><td>50, M</td><td>A/B</td><td>A</td><td>Minimalismo respeta tiempo</td><td>B sobrecarga</td><td>Filtros por nivel para mayores</td><td>4</td><td>5</td></tr>
+                    <tr><td>Elena Vargas</td><td>26, F</td><td>B/A</td><td>B</td><td>Modal detallado ayuda a decidir</td><td>A fatigante en móvil</td><td>Integración con calendario</td><td>5</td><td>5</td></tr>
+                    <tr><td>Alex Kim</td><td>38, M</td><td>A/B</td><td>B</td><td>Filtros por plataforma útil para inmigrantes</td><td>A genérico</td><td>Multilingüe completo</td><td>4</td><td>4</td></tr>
+                    <tr><td>Daniela Ortiz</td><td>24, F</td><td>B/A</td><td>A</td><td>Rápido para búsquedas casuales</td><td>B innecesario si busco uno solo</td><td>Búsqueda por voz</td><td>3</td><td>4</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Análisis Final</h3>
+            <p><strong>Preferencia:</strong> Prototipo B ganó con 60% (6 de 10 usuarios)</p>
+            <p><strong>Puntuaciones:</strong> Gustar → B: 4.5 | A: 3.5  Facilidad → A: 4.75 | B: 4.0</p>
+            <p><strong>Decisión:</strong> Se selecciona el <strong>Prototipo B</strong> como diseño final, incorporando mejoras sugeridas (filtros por habilidades, modo oscuro, accesibilidad, IA, etc.).</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Ana María Sierra Yáñez – Ingeniería de Sistemas – UNAD – Grupo 25</p>
+        <p>Proyecto realizado con metodología Design Thinking completa – Diciembre 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
